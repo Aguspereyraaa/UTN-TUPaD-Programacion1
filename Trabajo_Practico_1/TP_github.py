@@ -19,7 +19,7 @@ nacionalidad=input("Ingrese su nacionalidad: ")
 print(f"Hola me llamo {name} {apellido}, tengo {edad} años y soy de {nacionalidad}")
 
 # 4) Crear un programa que pida al usuario el radio de un círculo e imprima por pantalla su área y
-#su perímetro.
+#su perímetro..
 
 import math
 radio=float(input("Ingrese el radio del circulo: "))
