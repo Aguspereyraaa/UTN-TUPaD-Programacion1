@@ -1,0 +1,52 @@
+#Ej1
+
+for numero in range(0,101):
+    print(numero)
+print("/////////////////")
+
+#Ej2
+
+num = int(input("Ingrese un numero:"))
+
+cantidad_digito = len(str(num))
+
+print("El numero tiene", cantidad_digito, "digitos")
+
+#Ej3
+
+numero_usuario = int(input("Ingrese un numero:"))
+numero_usuario2 = int(input("Ingrese otro numero:"))
+
+inicio = min(numero_usuario, numero_usuario2)
+maximo = max(numero_usuario, numero_usuario2)
+
+suma = 0 
+
+for i in range (inicio + 1, maximo):
+
+    suma += i
+
+print("La suma de los numeros entre", inicio, "y", maximo, "es:", suma)
+
+#Ej4
+
+num = int(input("Ingrese un nuemero: "))
+
+cont = num 
+
+while num > 0:
+    num_acumulador = int(input("Ingrese otro numero (Ingrese 0 para terminar):"))
+    cont += num_acumulador
+    if num_acumulador == 0 :
+        break
+
+print(f"El total acumulado es: {cont}")
+
+
+
+
+
+
+
+
+
