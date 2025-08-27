@@ -41,12 +41,3 @@ while num > 0:
         break
 
 print(f"El total acumulado es: {cont}")
-
-
-
-
-
-
-
-
-
