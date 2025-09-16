@@ -3,3 +3,8 @@
 lista = list(range(0,101, 4))
 print (lista)
 
+#Ej2
+
+lista = ["agus", 1, True, False, "dos"]
+print (lista[3])
+
