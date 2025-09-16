@@ -24,3 +24,18 @@ animales[1] = "loro"
 animales[len(animales)-1] = "oso"
 
 print(animales)
+
+#Ej5
+
+numeros = [8,15,3,22,7]
+numeros.remove(max(numeros))
+print(numeros)
+
+#Se inicia un array con 5 elementos numericos
+#.remove(max(array)) elimina el mayor valor numerico dentro de esa lista.
+#al finalizar se imprime la lista sin ese valor eliminado.
+
+#Ej6
+
+lista=list(range(10,31,5))
+print(lista[0], lista[1])
