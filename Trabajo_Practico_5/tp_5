@@ -16,3 +16,11 @@ lista.append("como")
 lista.append("estas")
 
 print(lista)
+
+#Ej4
+
+animales = ["perro", "gato", "conejo", "pez"]
+animales[1] = "loro"
+animales[len(animales)-1] = "oso"
+
+print(animales)
