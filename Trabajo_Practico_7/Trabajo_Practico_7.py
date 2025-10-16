@@ -27,7 +27,7 @@ for i in range(5):
             band: bool = False
         else:
             print("Error, intente nuevamente ingresar el numero")
-    agenda[nombre] = numero  # Guardar como string
+    agenda[nombre] = numero  # Guardar como entero
 
 print("--Contactos de agenda--")
 print(agenda)
