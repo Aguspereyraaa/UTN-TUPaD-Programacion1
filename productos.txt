@@ -1,0 +1,3 @@
+Lapicera,150,8
+Lapiz,250,9
+Goma,20,5
