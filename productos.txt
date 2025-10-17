@@ -1,4 +1,8 @@
 Lapicera,150,8
 Lapiz,250,9
 Goma,20,5
+<<<<<<< HEAD
 papel,10,10
+=======
+papel,30,10
+>>>>>>> 2771000f5a4ac155d7cde7689e1602f27fe6ede2

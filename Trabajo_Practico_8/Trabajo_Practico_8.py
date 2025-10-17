@@ -20,7 +20,10 @@ with open("productos.txt","r") as archivo:
         print(f"Producto: {datos[0]} | Precio: {datos[1]} | Cantidad: {datos[2]}")
 
 #Ej 3
-#
+#Agregar productos desde teclado: Modificar el programa para que luego de mostrar
+#los productos, le pida al usuario que ingrese un nuevo producto (nombre, precio,
+#cantidad) y lo agregue al archivo sin borrar el contenido existente.
+
 
 producto = input("Ingrese el nombre del nuevo producto: ")
 precio = input(f"Ingrese el precio del producto {producto}: ")
@@ -33,3 +36,5 @@ with open("productos.txt","r") as archivo:
     for linea in archivo:
         datos = linea.strip().split(",")
         print(f"Producto: {datos[0]} | Precio: {datos[1]} | Cantidad: {datos[2]}")
+
+#Ej 4 
