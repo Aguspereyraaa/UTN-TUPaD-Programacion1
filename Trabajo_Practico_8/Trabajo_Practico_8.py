@@ -21,3 +21,15 @@ with open("productos.txt","r") as archivo:
 
 #Ej 3
 #
+
+producto = input("Ingrese el nombre del nuevo producto: ")
+precio = input(f"Ingrese el precio del producto {producto}: ")
+cantidad = input(f"Ingrese la cantidad de {producto}: ")
+
+with open("productos.txt", "a") as archivo:
+        archivo.write(f"{producto},{precio},{cantidad}\n")
+
+with open("productos.txt","r") as archivo:
+    for linea in archivo:
+        datos = linea.strip().split(",")
+        print(f"Producto: {datos[0]} | Precio: {datos[1]} | Cantidad: {datos[2]}")
